@@ -19,3 +19,5 @@ angular.module('uuid', []).service('uuid4', function() {
     });
   };
 });
+
+module.exports = angular.module("uuid").name;
